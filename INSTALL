@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # HEADER
-# AUTHOR Davit
-# EMAIL me@davit.ie
+# AUTHOR: Davit
+# EMAIL: me@davit.ie
 colored='\033[0;36m'
 NC='\033[0m' # No Color
 
