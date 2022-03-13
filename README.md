@@ -69,6 +69,15 @@ To install **NextPrj**, follow these steps:
 open a terminal and create a new project. 
   
 Linux:
+Create a project folder
+  
+```bash
+mkdir nextprj && cd nextprj
+  
+```
+
+  The install using below
+  
 ```bash
 git clone https://github.com/DavitTec/nextprj.git .
 ./INSTALL;
