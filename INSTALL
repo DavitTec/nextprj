@@ -1,0 +1,57 @@
+#! /usr/bin/env bash
+# HEADER
+# AUTHOR Davit
+# EMAIL me@davit.ie
+colored='\033[0;36m'
+NC='\033[0m' # No Color
+
+version="0.1.0" #VERSION
+temp="tmpbasic" # Temp install package from NEXT.JS
+# Just copy some initial files
+Pack="package.json next.config.js public pages styles"
+#  A project to setup NEXT.JS Web / Mobile app
+
+read -rp 'Project name is?: ' -e -i "nextprj" name #name="nextprj"  #Default Package name
+
+echo "..Setting up $name $version"
+#Check that NPX is installed
+npx=$(npx -v)
+
+if [ -z "$npx" ]; then
+    echo -e "Command not found! Install? (y/n) \c"
+    read -r
+    if [ "$REPLY" = "y" ] ; then
+        
+        echo "You need to install or upgrade NODE.js and npm
+        sudo apt-get install node npm"
+        exit 1
+    fi
+fi
+
+echo " NPX version $npx is installed "
+
+REQUIRED_PKG="npm"
+
+PKG_OK=$(dpkg-query -W npm | grep "npm" | awk '{print $2}')
+echo "...Checking for $REQUIRED_PKG: $PKG_OK installed"
+
+npx create-next-app $temp
+
+for i in $Pack
+do
+    cp -r ./$temp/$i .
+done
+
+sed -i "s/$temp/$name/g" package.json
+npm install next react react-dom
+rm -fr $temp
+
+echo -e "
+---------  INSTALLED ---------------
+You can now run this command:
+
+  $colored   npm run dev$NC
+
+  To starts the development server here:
+
+"
