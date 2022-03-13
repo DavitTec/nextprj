@@ -1,18 +1,18 @@
 # [<img src="https://github.com/DavitTec/DavitTec/blob/master/logo/logo.svg" alt="Davit" width="16"/>](https://github.com/DavitTec) Project: NextPrj
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/DavitTec/Package_Template)
-![GitHub contributors](https://img.shields.io/github/contributors/DavitTec/Package_Template)
-![GitHub stars](https://img.shields.io/github/stars/DavitTec/Package_Template?style=social)
-![GitHub forks](https://img.shields.io/github/forks/DavitTec/Package_Template?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/DavitTec/nextprj)
+![GitHub contributors](https://img.shields.io/github/contributors/DavitTec/nextprj)
+![GitHub stars](https://img.shields.io/github/stars/DavitTec/nextprj?style=social)
+![GitHub forks](https://img.shields.io/github/forks/DavitTec/nextprj?style=social)
 
 <!--- Version & Git Hub Pages --->
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/DavitTec/Package_Template/pages%20build%20and%20deployment/gh-pages)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/DavitTec/nextprj/pages%20build%20and%20deployment/gh-pages)
 ![version](https://img.shields.io/badge/build-0.1.0-green?style=social)
 ![Debian package](https://img.shields.io/debian/v/bash/unstable?color=red&label=bash&style=social)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/DavitTec/Package_Template?label=version&logo=davit&sort=semver)
-![node-lts](https://img.shields.io/node/v/Package_Template?color=%23750e35&style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/davittec/Package_Template?color=%23750e35&style=social)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/DavitTec/nextprj?label=version&logo=davit&sort=semver)
+![node-lts](https://img.shields.io/node/v/nextprj?color=%23750e35&style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/davittec/nextprj?color=%23750e35&style=social)
 
 <!--- supporters --->
 ![Twitter](https://img.shields.io/twitter/follow/_davit?style=social)
