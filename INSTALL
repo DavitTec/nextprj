@@ -23,7 +23,7 @@ if [ -z "$npx" ]; then
     if [ "$REPLY" = "y" ] ; then
         
         echo "You need to install or upgrade NODE.js and npm
-        sudo apt-get install node npm"
+        sudo apt-get install node npm
         exit 1
     fi
 fi
