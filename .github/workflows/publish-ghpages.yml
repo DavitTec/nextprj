@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - davit-dev-ghpages
+    
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
