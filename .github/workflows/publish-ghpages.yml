@@ -5,7 +5,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - davit-dev-ghpages
+      - master
     
 jobs:
   build-and-deploy:
