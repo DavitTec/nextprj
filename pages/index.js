@@ -21,7 +21,7 @@ export default function Home() {
           </a>
         </h1>
         <p className={styles.description}>
-          [3] Get started by editing{" "}
+          [4] Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
