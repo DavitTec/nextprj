@@ -1,5 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "/components/Image";
+import Link from "next/link";
+import MyIcon2 from '../public/img/davit.png';
 
 export default function Home() {
   return (
@@ -17,7 +20,6 @@ export default function Home() {
             <span className={styles.davit}>DAV</span>iT
           </a>
         </h1>
-
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
@@ -42,15 +44,14 @@ export default function Home() {
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
-
-          <a href="http://localhost:3000/about" className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-
+          <Link href="/about">
+            <a className={styles.card}>
+              <h2>Deploy &rarr;</h2>
+              <p>
+                Instantly deploy your Next.js site to a public URL with Vercel.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
@@ -60,8 +61,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by {"   "}
-          <img className={styles.logo1} src="/img/davit.svg" alt="DAVIT LOGO" height="16" />
+          Powered by {"   "}<Image alt=" DAVIT" src={MyIcon2} width={65} height={16} />
         </a>
       </footer>
     </div>
