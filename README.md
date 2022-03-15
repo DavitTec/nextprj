@@ -104,7 +104,7 @@ Additional options for this project will follow...
   After initial INSTALL and testing the basic framework, you can now git pull to next tag releases.
   
  ```bash
-  git reset --hard origin/master  # THIS will delete ALL changes made but restored again in tag 0.1.0 fetch
+  git reset --hard origin/master  # THIS will delete ALL changes made but restored again if checkout tag 0.1.0 used
   git fetch --all
   git checkout tags/0.1.1
 
