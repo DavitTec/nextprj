@@ -100,6 +100,15 @@ With initial configuration you can start editing the page by modifying `pages/in
 The page auto-updates as you edit the file.
 
 Additional options for this project will follow...
+  
+  After initial INSTALL and testing the basic framework, you can now git pull to next tag releases.
+  
+ ```bash
+  git fetch --tags
+  git checkout tags/0.1.1
+
+  ```
+  
 
 ## Contributing to **NextPrj**
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
